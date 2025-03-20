@@ -26,6 +26,13 @@ It utilizes **XGBoost** and **SMOTE** for handling class imbalance.
 
 ---
 
+import kagglehub
+
+# Download the latest version of the dataset
+path = kagglehub.dataset_download("mlg-ulb/creditcardfraud")
+
+print("Path to dataset files:", path)
+
 ### **Next Steps**
 ✅ **Ensure `creditcard.ipynb` includes the model training and evaluation process.**  
 ✅ **Confirm `fraud_model.pkl` is properly saved and loaded in `creditcard.ipynb`.**  
